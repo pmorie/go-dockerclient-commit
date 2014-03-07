@@ -87,7 +87,3 @@ func TestCommitWithoutCmd(t *testing.T) {
 func TestCommitWithCmd(t *testing.T) {
 	exerciseCommit(true, t)
 }
-
-func TestThing(t *testing.T) {
-	t.Error("ugh")
-}
